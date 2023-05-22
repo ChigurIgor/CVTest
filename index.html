@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="index.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sideMenuContainer">
+                <div class="mainMenuButtonContainer">
+                    <div class="button">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+
+                <div class="centralButtonWrapper">
+                    <div class="button buttonActive">
+                        <a href="#commonInfoContainer">
+                            <i class="fa fa-user-o"></i>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="#myServicesContainer">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="#contactsContainer">
+                            <i class="fa fa-pencil-square-o"></i>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="#requestContainer">
+                            <i class="fa fa-briefcase"></i>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <a href="#portfolioContainer">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="button buttonBottom">
+                    <a href="">
+                        <i class="fa fa-cloud-download"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="photoContainer">
+                <span class="fullName">Ray Kroc</span>
+                <span class="title">Owner</span>
+                <div class="socialMediaContainer">
+                    <a href="www.google.com">
+                        <div>
+                            <i class="fa fa-facebook socialMediaIcon"></i>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <i class="fa fa-google-plus socialMediaIcon"></i>
+                        </div>                    </a>
+                    <a href="#">
+                        <div>
+                            <i class="fa fa-linkedin socialMediaIcon"></i>
+                        </div>                    </a>
+                    <a href="#">
+                        <div>
+                            <i class="fa fa-telegram socialMediaIcon"></i>
+                        </div>                    
+                    </a>
+                </div>
+            </div>
+            <div class="infoContainer">
+                <div class="commonInfoContainer" id="commonInfoContainer">
+                    <h2 class="header">about me</h2>
+                    <p class="smallDescription">28 years old / Web / Freelance</p>
+                    <p class="fullDescription descriptionText">As a Full Stack Web Developer, my primary focus is on developing and maintaining web applications from front to back. I have a strong understanding of both the client-side and server-side technologies required to create a seamless user experience.
+
+                </div>
+                <hr>
+                <div class="myServicesContainer" id="myServicesContainer">
+                    <h3 class="myServicesTitle">my services</h3>
+                    <div class="servicesWrapper">
+                        <div class="serviceCard">
+                            <img class="serviceCardIcon" src="https://www.iconpacks.net/icons/1/free-computer-icon-956-thumb.png">
+                            <h4 class="serviceCardTitle">development</h4>
+                            <p class="serviceCardDescription descriptionText"> Building .....</p>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="serviceCardIcon" src="https://www.iconpacks.net/icons/1/free-computer-icon-956-thumb.png">
+                            <h4 class="serviceCardTitle">development</h4>
+                            <p class="serviceCardDescription descriptionText"> Building .....</p>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="serviceCardIcon" src="https://www.iconpacks.net/icons/1/free-computer-icon-956-thumb.png">
+                            <h4 class="serviceCardTitle">development</h4>
+                            <p class="serviceCardDescription descriptionText"> Building .....</p>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="serviceCardIcon" src="https://www.iconpacks.net/icons/1/free-computer-icon-956-thumb.png">
+                            <h4 class="serviceCardTitle">development</h4>
+                            <p class="serviceCardDescription descriptionText"> Building .....</p>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="serviceCardIcon" src="https://www.iconpacks.net/icons/1/free-computer-icon-956-thumb.png">
+                            <h4 class="serviceCardTitle">development</h4>
+                            <p class="serviceCardDescription descriptionText"> Building .....</p>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="serviceCardIcon" src="https://www.iconpacks.net/icons/1/free-computer-icon-956-thumb.png">
+                            <h4 class="serviceCardTitle">development</h4>
+                            <p class="serviceCardDescription descriptionText"> Building .....</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="contactsContainer" id="contactsContainer">
+                    <div class="telephoneContainer">
+                        <i class="fa fa-phone"></i>
+                        <span>+972546667777</span>
+                    </div>
+                    <div class="emailContainer">
+                        <i class="fa fa-envelope-o"></i>
+                        <span>raukroc@gmail.com</span>
+                    </div>
+                    <div class="addressContainer">
+                        <i class="fa fa-home"></i>
+                        <span>1398 North E Street in San Bernardino, California</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="requestContainer" id="requestContainer">
+                    <form class="inputForm" onsubmit="alert(
+                    'The form submitted with:\n'
+                    +document.getElementById('inputText').value +'\n'
+                    +document.getElementById('inputTelephone').value +'\n'
+                    +document.getElementById('inputEmail').value
+                    )">
+                        <input class="inputField" id="inputText" type="text" name="inputText" placeholder="Type your request">
+                        <input class="inputField" id="inputTelephone" type="tel" name="inputTelephone" placeholder="Enter your contact phone">
+                        <input class="inputField" id="inputEmail" type="email" name="inputEmail" placeholder="Enter your contact email">
+                        <input class="inputButton" type="submit" name="inputSubmit" value="Send request" >
+                    </form>
+                </div>
+                <hr>
+                <div class="portfolioContainer" id="portfolioContainer">
+                    <div class="portfolioCard">
+                        <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/12/mcdonalds-1.jpg?quality=82&strip=1">
+                    </div>
+                    <div class="portfolioCard">
+                        <img src="https://www.todayifoundout.com/wp-content/uploads/2014/10/McDonalds.jpg">
+                    </div>
+                    <div class="portfolioCard">
+                        <img src="https://www.eatthis.com/wp-content/uploads/sites/4/2022/01/mcdonalds-melbourne-australia-location.jpg?quality=82&strip=1">
+                    </div>
+                    <div class="portfolioCard">
+                        <img src="https://i2-prod.liverpoolecho.co.uk/incoming/article23943440.ece/ALTERNATES/s1200/2_webmedia-1.jpg">
+                    </div>
+                    <div class="portfolioCard">
+                        <img src="https://cdn.britannica.com/64/19464-050-EE63E306/restaurant-McDonalds-museum-Ray-Kroc-Illinois-Des.jpg">
+                    </div>
+                    <div class="portfolioCard">
+                        <img src="https://blog.grandrapidschair.com/hubfs/McDs_3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
